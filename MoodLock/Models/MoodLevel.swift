@@ -13,13 +13,20 @@ enum MoodLevel: Int, Codable, CaseIterable, Identifiable, AppEnum {
 
     var id: Int { rawValue }
 
+    // String(localized:), not a bare string literal — this property gets
+    // read as a runtime String everywhere it's used (Text, Swift Charts
+    // axis values, accessibility labels, string interpolation), and
+    // `Text(someStringVar)` silently skips the String Catalog lookup that
+    // `Text("literal")` gets for free. Resolving the lookup here, once,
+    // means every call site is correctly localized without having to know
+    // or care about that distinction.
     var label: String {
         switch self {
-        case .veryUnpleasant: "很难过"
-        case .unpleasant: "难过"
-        case .neutral: "一般"
-        case .pleasant: "开心"
-        case .veryPleasant: "很开心"
+        case .veryUnpleasant: String(localized: "很难过")
+        case .unpleasant: String(localized: "难过")
+        case .neutral: String(localized: "一般")
+        case .pleasant: String(localized: "开心")
+        case .veryPleasant: String(localized: "很开心")
         }
     }
 

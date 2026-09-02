@@ -140,7 +140,11 @@ struct MoodEntryDetailView: View {
                 entry.audioURL = nil
                 try? FileManager.default.removeItem(at: audioURL)
             } catch {
-                errorMessage = "转文字失败，请重试，或保留原始录音。"
+                // String(localized:), not a bare literal — errorMessage is a
+                // stored String, and Text(errorMessage) below reads it as a
+                // runtime value, which skips Text's automatic Catalog
+                // lookup for literals.
+                errorMessage = String(localized: "转文字失败，请重试，或保留原始录音。")
             }
             isTranscribing = false
         }

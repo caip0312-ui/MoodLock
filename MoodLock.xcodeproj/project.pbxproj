@@ -24,6 +24,8 @@
 		9EB2B0F0035D6410D7B88EF8 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F757D00F38B195B0F378D3 /* AudioRecorder.swift */; };
 		A7C320307DE9670376C4711A /* HistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657F63BBA28CC9BA0AF9E863 /* HistoryListView.swift */; };
 		A9949699698D04D12ED7908E /* AnomalyDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4907EE6F6755D76D18493209 /* AnomalyDetector.swift */; };
+		1BCEA8C47FBE83459F5ED49A /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = EDAE87852A819E046D1D9047 /* Localizable.xcstrings */; };
+		0981CC14D6F9D8EFFD773C00 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = EDAE87852A819E046D1D9047 /* Localizable.xcstrings */; };
 		BA3257AF039EE2F4DF74713E /* MoodEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A636D4E05D296CAA41DDA268 /* MoodEntry.swift */; };
 		BB3A9344EA37C13C80648A3F /* AnomalyDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4907EE6F6755D76D18493209 /* AnomalyDetector.swift */; };
 		D2242A481D5998B33F3078CD /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B6800EE0BCF50613012BAE /* Color+Hex.swift */; };
@@ -74,6 +76,7 @@
 		394BCAA98B8527E5774D4FF4 /* MoodLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E1228DED5EC37FA28B8E8C5 /* MoodLock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MoodLock.entitlements; sourceTree = "<group>"; };
 		4907EE6F6755D76D18493209 /* AnomalyDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnomalyDetector.swift; sourceTree = "<group>"; };
+		EDAE87852A819E046D1D9047 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		4ABEBDACAB0F9C830208597A /* SpeechTranscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechTranscriber.swift; sourceTree = "<group>"; };
 		5A892FC01A6CB838E45301EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B5930515164367EB8082BEC /* MoodLockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodLockApp.swift; sourceTree = "<group>"; };
@@ -116,6 +119,7 @@
 			children = (
 				941FA7A724151A2BAAC1EA68 /* AppGroup.swift */,
 				4907EE6F6755D76D18493209 /* AnomalyDetector.swift */,
+				EDAE87852A819E046D1D9047 /* Localizable.xcstrings */,
 				F328F38659B81B0E03DFEA7A /* MoodCrescentIcon.swift */,
 			);
 			path = Shared;
@@ -281,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0981CC14D6F9D8EFFD773C00 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B23AD182676A4E93E2B0595 /* Assets.xcassets in Resources */,
+				1BCEA8C47FBE83459F5ED49A /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -101,7 +101,12 @@ private struct SelectedDay: Identifiable {
 /// "recursive layout loop" crash), so charts live in a plain ScrollView
 /// instead of a List-backed container.
 private struct ChartCard<Content: View>: View {
-    let title: String
+    // LocalizedStringKey, not String — a plain String property defeats
+    // Text's automatic String Catalog lookup (Text(someStringVar) binds to
+    // the verbatim initializer), even though every call site passes a
+    // literal. LocalizedStringKey preserves the literal-ness through the
+    // property so localization keeps working.
+    let title: LocalizedStringKey
     @ViewBuilder let content: Content
 
     var body: some View {
@@ -132,7 +137,11 @@ private struct MonthHeatmapView: View {
 
     private let calendar = Calendar.current
     private let columns = Array(repeating: GridItem(.flexible(), spacing: 6), count: 7)
-    private let weekdaySymbols = ["日", "一", "二", "三", "四", "五", "六"]
+    // Locale-aware instead of a hardcoded Chinese array — the index
+    // ordering is always Sunday...Saturday regardless of the calendar's
+    // firstWeekday, which matches the Sunday-anchored `weekday - 1` math
+    // `monthDays` already does below.
+    private var weekdaySymbols: [String] { calendar.veryShortWeekdaySymbols }
 
     private var monthDays: [Date?] {
         let now = Date()

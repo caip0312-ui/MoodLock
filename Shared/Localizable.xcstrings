@@ -1,0 +1,436 @@
+{
+  "sourceLanguage": "zh-Hans",
+  "strings": {
+    "很难过": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Very Unpleasant"
+          }
+        }
+      }
+    },
+    "难过": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unpleasant"
+          }
+        }
+      }
+    },
+    "一般": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neutral"
+          }
+        }
+      }
+    },
+    "开心": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pleasant"
+          }
+        }
+      }
+    },
+    "很开心": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Very Pleasant"
+          }
+        }
+      }
+    },
+    "心情档位": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mood Level"
+          }
+        }
+      }
+    },
+    "设置": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
+          }
+        }
+      }
+    },
+    "历史": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "History"
+          }
+        }
+      }
+    },
+    "图表": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Charts"
+          }
+        }
+      }
+    },
+    "语音录音": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Voice Recording"
+          }
+        }
+      }
+    },
+    "开启后，记录心情时可以立即补充一段语音。仅在 App 内可用，锁屏和桌面小组件不支持录音。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "When enabled, you can add a voice note right after logging a mood. Only available in the app — Lock Screen and Home Screen widgets don't support recording."
+          }
+        }
+      }
+    },
+    "还没有记录": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No entries yet"
+          }
+        }
+      }
+    },
+    "历史记录": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "History"
+          }
+        }
+      }
+    },
+    "检测到 %lld 条心情记录短时间内变化异常": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Detected %lld mood entries changing rapidly"
+          }
+        }
+      }
+    },
+    "点击查看": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tap to view"
+          }
+        }
+      }
+    },
+    "没有异常记录": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No flagged entries"
+          }
+        }
+      }
+    },
+    "疑似异常记录": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Flagged Entries"
+          }
+        }
+      }
+    },
+    "完成": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done"
+          }
+        }
+      }
+    },
+    "本月心情热力图": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This Month's Heatmap"
+          }
+        }
+      }
+    },
+    "本月心情趋势": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This Month's Trend"
+          }
+        }
+      }
+    },
+    "本月还没有记录": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No entries yet this month"
+          }
+        }
+      }
+    },
+    "本月心情分布": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This Month's Distribution"
+          }
+        }
+      }
+    },
+    "查看本月心情时刻分布（可选深度视图）": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "View this month's moment-by-moment scatter (optional deep view)"
+          }
+        }
+      }
+    },
+    "这天没有记录": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No entries this day"
+          }
+        }
+      }
+    },
+    "心情时刻分布": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Moment Distribution"
+          }
+        }
+      }
+    },
+    "文字备注": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Text Note"
+          }
+        }
+      }
+    },
+    "写点什么…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Write something…"
+          }
+        }
+      }
+    },
+    "语音备注": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Voice Note"
+          }
+        }
+      }
+    },
+    "记录详情": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entry Detail"
+          }
+        }
+      }
+    },
+    "原始录音": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Original Recording"
+          }
+        }
+      }
+    },
+    "转文字归档": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Transcribe & Archive"
+          }
+        }
+      }
+    },
+    "没有麦克风权限，请到系统设置里开启。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No microphone permission — enable it in Settings."
+          }
+        }
+      }
+    },
+    "点右上角的按钮开始录音。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tap the button in the top-right to start recording."
+          }
+        }
+      }
+    },
+    "转文字失败，请重试，或保留原始录音。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Transcription failed — try again, or keep the original recording."
+          }
+        }
+      }
+    },
+    "记录心情": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Log Mood"
+          }
+        }
+      }
+    },
+    "从 Widget 记录一次心情等级": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Log a mood level from the widget"
+          }
+        }
+      }
+    },
+    "心情等级": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mood Level"
+          }
+        }
+      }
+    },
+    "来源": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Source"
+          }
+        }
+      }
+    },
+    "心情快速记录。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quick mood logging."
+          }
+        }
+      }
+    },
+    "选择心情档位": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose Mood Level"
+          }
+        }
+      }
+    },
+    "选择这个小组件要记录的心情档位": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose which mood level this widget logs"
+          }
+        }
+      }
+    },
+    "MoodLock 单档": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MoodLock Single"
+          }
+        }
+      }
+    },
+    "选择一个心情档位，固定放在锁屏上快速记录，长按可随时更换档位。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pick one mood level to keep on your Lock Screen for quick logging — long-press anytime to change it."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
