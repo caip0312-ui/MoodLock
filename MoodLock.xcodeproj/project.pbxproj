@@ -7,19 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BDBAEE075F10152A3446840 /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941FA7A724151A2BAAC1EA68 /* AppGroup.swift */; };
+		231B28A1B13680D1EE46065A /* MoodCrescentIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F328F38659B81B0E03DFEA7A /* MoodCrescentIcon.swift */; };
+		38F633F2FD5AC902574049F0 /* MoodSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D59B9FDEA499D22B0E662 /* MoodSource.swift */; };
+		397AB5DF9FA167193B3EB706 /* MoodLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D3ACDC3B64CEECB2676F8 /* MoodLevel.swift */; };
+		3A914352C762DE699DBE5D5B /* MoodEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A636D4E05D296CAA41DDA268 /* MoodEntry.swift */; };
 		42A26A1BCCCD6FA9BC5BB598 /* MoodLockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5930515164367EB8082BEC /* MoodLockApp.swift */; };
+		45FA2293F321823AF2B51472 /* MoodLockWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745F5F23EF1DBBDCC0039B7 /* MoodLockWidgetBundle.swift */; };
 		4A298C0BBFB9B5ECAAF55B25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F49992347702022F69A045D /* ContentView.swift */; };
+		4C95AF992FA8B05D4EF7A567 /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941FA7A724151A2BAAC1EA68 /* AppGroup.swift */; };
+		54DC859A29A8482C59CEF1DB /* MoodBlobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197CAE631CB63B5A76F4DCFD /* MoodBlobView.swift */; };
+		62FAA21DB1CAB5E5F16B6458 /* MoodLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D3ACDC3B64CEECB2676F8 /* MoodLevel.swift */; };
+		66BDC25646A78B925A7153AB /* SpeechTranscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABEBDACAB0F9C830208597A /* SpeechTranscriber.swift */; };
 		6B23AD182676A4E93E2B0595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E15DDDBFB419477A2CDBF87 /* Assets.xcassets */; };
+		877B924429F58F479B25637F /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B6800EE0BCF50613012BAE /* Color+Hex.swift */; };
+		9EB2B0F0035D6410D7B88EF8 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F757D00F38B195B0F378D3 /* AudioRecorder.swift */; };
+		A7C320307DE9670376C4711A /* HistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657F63BBA28CC9BA0AF9E863 /* HistoryListView.swift */; };
+		A9949699698D04D12ED7908E /* AnomalyDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4907EE6F6755D76D18493209 /* AnomalyDetector.swift */; };
+		BA3257AF039EE2F4DF74713E /* MoodEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A636D4E05D296CAA41DDA268 /* MoodEntry.swift */; };
+		BB3A9344EA37C13C80648A3F /* AnomalyDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4907EE6F6755D76D18493209 /* AnomalyDetector.swift */; };
+		D2242A481D5998B33F3078CD /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B6800EE0BCF50613012BAE /* Color+Hex.swift */; };
+		D2565CAD83DFA92CEB8D08A3 /* MoodLockWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18115AE61531EBD401126A0F /* MoodLockWidget.swift */; };
+		D505D0C34A1E4C71140ECE97 /* MoodSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D59B9FDEA499D22B0E662 /* MoodSource.swift */; };
+		D7CA12D54983B8F9FE660C92 /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DA68C0BD9B590A17F4C082 /* ChartsView.swift */; };
+		D8115EA14B6EB1D9F8A7B0CC /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621467F24981AFF51C34AA54 /* AudioPlayer.swift */; };
+		D9F02BF1217070CFE0F3F12A /* MoodEntryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4E92688955AD554329869 /* MoodEntryDetailView.swift */; };
+		DF67DE07774F5D80797142A2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A304DE8ABA57B49CDC4258DE /* SettingsView.swift */; };
+		DFA885E4F2D7AE9FEBE2BA1D /* MoodLockWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E7E20B91ABE1A215B0325826 /* MoodLockWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F142BE97549A01FFDF363A8C /* MoodCrescentIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F328F38659B81B0E03DFEA7A /* MoodCrescentIcon.swift */; };
+		F1A97DE6BDFEB1BB425564E8 /* MoodButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECE3481FCA7A21BB2732C7 /* MoodButton.swift */; };
+		F70EC56D10EF1FE2E96315B4 /* LogMoodIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CBCDCAF64CC1B537682DC /* LogMoodIntent.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58257DB1A2A068B7C77421A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4C0894D26A24209837042C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADE19C99A99C2E59B2424B0E;
+			remoteInfo = MoodLockWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0100C3EF2B09BBCA10C3B810 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DFA885E4F2D7AE9FEBE2BA1D /* MoodLockWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0F49992347702022F69A045D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1745F5F23EF1DBBDCC0039B7 /* MoodLockWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodLockWidgetBundle.swift; sourceTree = "<group>"; };
+		17DA68C0BD9B590A17F4C082 /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
+		18115AE61531EBD401126A0F /* MoodLockWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodLockWidget.swift; sourceTree = "<group>"; };
+		197CAE631CB63B5A76F4DCFD /* MoodBlobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodBlobView.swift; sourceTree = "<group>"; };
+		1E3CBCDCAF64CC1B537682DC /* LogMoodIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogMoodIntent.swift; sourceTree = "<group>"; };
+		26B6800EE0BCF50613012BAE /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
 		394BCAA98B8527E5774D4FF4 /* MoodLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1228DED5EC37FA28B8E8C5 /* MoodLock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MoodLock.entitlements; sourceTree = "<group>"; };
+		4907EE6F6755D76D18493209 /* AnomalyDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnomalyDetector.swift; sourceTree = "<group>"; };
+		4ABEBDACAB0F9C830208597A /* SpeechTranscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechTranscriber.swift; sourceTree = "<group>"; };
+		5A892FC01A6CB838E45301EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B5930515164367EB8082BEC /* MoodLockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodLockApp.swift; sourceTree = "<group>"; };
+		621467F24981AFF51C34AA54 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		657F63BBA28CC9BA0AF9E863 /* HistoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryListView.swift; sourceTree = "<group>"; };
+		80FB981E9569338F17F271F1 /* MoodLockWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MoodLockWidgetExtension.entitlements; sourceTree = "<group>"; };
+		845D3ACDC3B64CEECB2676F8 /* MoodLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodLevel.swift; sourceTree = "<group>"; };
+		849D59B9FDEA499D22B0E662 /* MoodSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodSource.swift; sourceTree = "<group>"; };
+		84ECE3481FCA7A21BB2732C7 /* MoodButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodButton.swift; sourceTree = "<group>"; };
+		941FA7A724151A2BAAC1EA68 /* AppGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroup.swift; sourceTree = "<group>"; };
 		9E15DDDBFB419477A2CDBF87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A304DE8ABA57B49CDC4258DE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A636D4E05D296CAA41DDA268 /* MoodEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodEntry.swift; sourceTree = "<group>"; };
+		D4F757D00F38B195B0F378D3 /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		E6E4E92688955AD554329869 /* MoodEntryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodEntryDetailView.swift; sourceTree = "<group>"; };
+		E7E20B91ABE1A215B0325826 /* MoodLockWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MoodLockWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F328F38659B81B0E03DFEA7A /* MoodCrescentIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodCrescentIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		041A8C4350272263963E9420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		646EA579EE18E3F9E9737680 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -30,18 +111,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03566A31FFDB9A9527F4E9FF /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				941FA7A724151A2BAAC1EA68 /* AppGroup.swift */,
+				4907EE6F6755D76D18493209 /* AnomalyDetector.swift */,
+				F328F38659B81B0E03DFEA7A /* MoodCrescentIcon.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		29A0F63547811579BA88A684 = {
 			isa = PBXGroup;
 			children = (
 				9F1DF8E375DCF0B4EF7E0079 /* MoodLock */,
+				4C65DD2ACACDD29A38537BDB /* MoodLockWidget */,
+				03566A31FFDB9A9527F4E9FF /* Shared */,
 				92367D2AF0FEE242D69D4D3E /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		4C65DD2ACACDD29A38537BDB /* MoodLockWidget */ = {
+			isa = PBXGroup;
+			children = (
+				1745F5F23EF1DBBDCC0039B7 /* MoodLockWidgetBundle.swift */,
+				18115AE61531EBD401126A0F /* MoodLockWidget.swift */,
+				5A892FC01A6CB838E45301EA /* Info.plist */,
+				80FB981E9569338F17F271F1 /* MoodLockWidgetExtension.entitlements */,
+				1E3CBCDCAF64CC1B537682DC /* LogMoodIntent.swift */,
+			);
+			path = MoodLockWidget;
 			sourceTree = "<group>";
 		};
 		92367D2AF0FEE242D69D4D3E /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				394BCAA98B8527E5774D4FF4 /* MoodLock.app */,
+				E7E20B91ABE1A215B0325826 /* MoodLockWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,9 +157,47 @@
 			children = (
 				5B5930515164367EB8082BEC /* MoodLockApp.swift */,
 				0F49992347702022F69A045D /* ContentView.swift */,
+				F404498A4C457897D31E966D /* Models */,
+				C55A16DFAF5CC70D65778B48 /* Views */,
+				F99F150CAF186E446E5D6B39 /* Extensions */,
 				9E15DDDBFB419477A2CDBF87 /* Assets.xcassets */,
+				3E1228DED5EC37FA28B8E8C5 /* MoodLock.entitlements */,
+				D4F757D00F38B195B0F378D3 /* AudioRecorder.swift */,
+				621467F24981AFF51C34AA54 /* AudioPlayer.swift */,
+				4ABEBDACAB0F9C830208597A /* SpeechTranscriber.swift */,
 			);
 			path = MoodLock;
+			sourceTree = "<group>";
+		};
+		C55A16DFAF5CC70D65778B48 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84ECE3481FCA7A21BB2732C7 /* MoodButton.swift */,
+				657F63BBA28CC9BA0AF9E863 /* HistoryListView.swift */,
+				A304DE8ABA57B49CDC4258DE /* SettingsView.swift */,
+				E6E4E92688955AD554329869 /* MoodEntryDetailView.swift */,
+				17DA68C0BD9B590A17F4C082 /* ChartsView.swift */,
+				197CAE631CB63B5A76F4DCFD /* MoodBlobView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F404498A4C457897D31E966D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A636D4E05D296CAA41DDA268 /* MoodEntry.swift */,
+				845D3ACDC3B64CEECB2676F8 /* MoodLevel.swift */,
+				849D59B9FDEA499D22B0E662 /* MoodSource.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F99F150CAF186E446E5D6B39 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				26B6800EE0BCF50613012BAE /* Color+Hex.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -66,15 +210,34 @@
 				452D4F7D432FDC8C1B638A0A /* Sources */,
 				646EA579EE18E3F9E9737680 /* Frameworks */,
 				F5C4CA7EA47F94674365B4D3 /* Resources */,
+				0100C3EF2B09BBCA10C3B810 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0D7EA7D088927AB9FF0B9A14 /* PBXTargetDependency */,
 			);
 			name = MoodLock;
 			productName = MoodLock;
 			productReference = 394BCAA98B8527E5774D4FF4 /* MoodLock.app */;
 			productType = "com.apple.product-type.application";
+		};
+		ADE19C99A99C2E59B2424B0E /* MoodLockWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 223E844DE364013F7C535828 /* Build configuration list for PBXNativeTarget "MoodLockWidgetExtension" */;
+			buildPhases = (
+				8CD30DE93CD9590ADF648184 /* Sources */,
+				041A8C4350272263963E9420 /* Frameworks */,
+				E1FD2A9531779BD71C6B22C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoodLockWidgetExtension;
+			productName = MoodLockWidgetExtension;
+			productReference = E7E20B91ABE1A215B0325826 /* MoodLockWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -87,6 +250,9 @@
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					38F05FF78315CC0C31208441 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					ADE19C99A99C2E59B2424B0E = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
@@ -105,11 +271,19 @@
 			projectRoot = "";
 			targets = (
 				38F05FF78315CC0C31208441 /* MoodLock */,
+				ADE19C99A99C2E59B2424B0E /* MoodLockWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E1FD2A9531779BD71C6B22C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F5C4CA7EA47F94674365B4D3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -127,10 +301,51 @@
 			files = (
 				42A26A1BCCCD6FA9BC5BB598 /* MoodLockApp.swift in Sources */,
 				4A298C0BBFB9B5ECAAF55B25 /* ContentView.swift in Sources */,
+				BA3257AF039EE2F4DF74713E /* MoodEntry.swift in Sources */,
+				62FAA21DB1CAB5E5F16B6458 /* MoodLevel.swift in Sources */,
+				D505D0C34A1E4C71140ECE97 /* MoodSource.swift in Sources */,
+				877B924429F58F479B25637F /* Color+Hex.swift in Sources */,
+				F1A97DE6BDFEB1BB425564E8 /* MoodButton.swift in Sources */,
+				A7C320307DE9670376C4711A /* HistoryListView.swift in Sources */,
+				4C95AF992FA8B05D4EF7A567 /* AppGroup.swift in Sources */,
+				BB3A9344EA37C13C80648A3F /* AnomalyDetector.swift in Sources */,
+				9EB2B0F0035D6410D7B88EF8 /* AudioRecorder.swift in Sources */,
+				DF67DE07774F5D80797142A2 /* SettingsView.swift in Sources */,
+				D8115EA14B6EB1D9F8A7B0CC /* AudioPlayer.swift in Sources */,
+				66BDC25646A78B925A7153AB /* SpeechTranscriber.swift in Sources */,
+				D9F02BF1217070CFE0F3F12A /* MoodEntryDetailView.swift in Sources */,
+				231B28A1B13680D1EE46065A /* MoodCrescentIcon.swift in Sources */,
+				D7CA12D54983B8F9FE660C92 /* ChartsView.swift in Sources */,
+				54DC859A29A8482C59CEF1DB /* MoodBlobView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD30DE93CD9590ADF648184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FA2293F321823AF2B51472 /* MoodLockWidgetBundle.swift in Sources */,
+				D2565CAD83DFA92CEB8D08A3 /* MoodLockWidget.swift in Sources */,
+				1BDBAEE075F10152A3446840 /* AppGroup.swift in Sources */,
+				F70EC56D10EF1FE2E96315B4 /* LogMoodIntent.swift in Sources */,
+				3A914352C762DE699DBE5D5B /* MoodEntry.swift in Sources */,
+				397AB5DF9FA167193B3EB706 /* MoodLevel.swift in Sources */,
+				38F633F2FD5AC902574049F0 /* MoodSource.swift in Sources */,
+				D2242A481D5998B33F3078CD /* Color+Hex.swift in Sources */,
+				A9949699698D04D12ED7908E /* AnomalyDetector.swift in Sources */,
+				F142BE97549A01FFDF363A8C /* MoodCrescentIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D7EA7D088927AB9FF0B9A14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADE19C99A99C2E59B2424B0E /* MoodLockWidgetExtension */;
+			targetProxy = 58257DB1A2A068B7C77421A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0923B14C31F99AEA1AC7E5C6 /* Debug */ = {
@@ -196,17 +411,45 @@
 			};
 			name = Debug;
 		};
+		475AC57E6DED8FDB007C3088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MoodLockWidget/MoodLockWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94TN9QF99S;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MoodLockWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moodlock.app.MoodLockWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		7020738D3D771EAB3CDF24A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MoodLock/MoodLock.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 94TN9QF99S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "开启语音录音功能后，用于在记录心情时补充一段语音备注。";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "用于把你录的语音备注转成文字归档。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -219,6 +462,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.moodlock.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -230,12 +474,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MoodLock/MoodLock.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 94TN9QF99S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "开启语音录音功能后，用于在记录心情时补充一段语音备注。";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "用于把你录的语音备注转成文字归档。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -248,6 +496,31 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.moodlock.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD6E945ECE15CC8902E84C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MoodLockWidget/MoodLockWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94TN9QF99S;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MoodLockWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moodlock.app.MoodLockWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,6 +586,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		223E844DE364013F7C535828 /* Build configuration list for PBXNativeTarget "MoodLockWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				475AC57E6DED8FDB007C3088 /* Debug */,
+				AD6E945ECE15CC8902E84C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D3CB051C043A9668F8CFD2F4 /* Build configuration list for PBXNativeTarget "MoodLock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -7,3 +7,8 @@ xcuserdata/
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
+
+# Unrelated / not for the public repo
+.Rhistory
+MoodLock_竞品调研报告.docx
+竞品UI调研.md
